@@ -1,0 +1,1044 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #121B24;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* inicio header */
+
+
+/* Extra small devices (600px and down) */
+    @media only screen and (max-width: 351px) {
+        .contenedor-menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            transition-duration: 0.4s;
+        }
+        
+        /* logo */
+        .contenedor-menu .logo{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-top:2em;
+        }
+
+        .contenedor-menu .logo h1{
+            color: white;
+        }
+
+        .contenedor-menu .logo img{
+            width: 3em;
+            height: 3em;
+            margin-right: 2em;
+        }
+
+        /* arranca menu */
+        .contenedor-menu ul{
+            list-style: none;
+            padding: 1em;
+            text-align: center;
+        }
+        .contenedor-menu ul li{
+            margin: 1em;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+
+        .contenedor-menu a{
+            text-decoration:none;
+            color: white;
+        }
+        a:hover{
+            background-color: #10d5ff;
+            color: white;
+            border: solid #10d5ff 1px;
+        }
+        /* main */
+
+        h2{
+            margin-left: 1em;
+            margin-top: 2em;
+            color: white;
+            font-size: 20px;
+        }
+
+        h3{ 
+            margin-left: 1em;
+            margin-top: 5em;
+            color: white;
+            font-size: 18px;
+        }
+
+        /* primera seccion peliculas */
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2em;
+            margin-left: 5em;
+
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: block;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno .title-reseña{
+            color: white;
+            font-size: 20px;
+            margin-right: 3em;
+        }
+
+        .contenedor-uno p{
+            color:  #10d5ff;
+            margin-right: 3em;
+            margin-top: 2em;
+        }
+
+    
+
+
+
+    /* primera seccion series */
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2em;
+        margin-left: 5em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+         display: flex;
+         flex-direction: column;
+         margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos .title-reseña-serie{
+        color: white;
+        font-size: 20px;
+        margin-right: 3em;
+    }
+
+    .contenedor-dos p{
+        color:  #10d5ff;
+        margin-right: 3em;
+        margin-top: 2em;
+    }
+
+
+    img{
+        width: 150px;
+    }
+
+    img:hover{
+        transform: scale(1.15);
+    }
+
+    /* Footer */
+    .contenedor-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10em;
+        box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+
+    .contenedor-footer .logo-footer{
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top:2em;
+    }
+
+    .contenedor-footer .logo-footer h1{
+        color: white;
+    }
+
+    .contenedor-footer .logo-footer img{
+        width: 3em;
+        height: 3em;
+        margin-right: 2em;
+    }
+
+    .contenedor-footer .lista-footer ul{
+        list-style: none;
+        text-align: center;
+        margin-right: 2em;
+    }
+
+    .contenedor-footer a{
+        color: white;
+    }
+    }
+
+
+
+    /* ################################################### */
+
+    @media only screen and (min-width: 352px) {
+        .contenedor-menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            transition-duration: 0.4s;
+        }
+        
+        /* logo */
+        .contenedor-menu .logo{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-top:2em;
+        }
+
+        .contenedor-menu .logo h1{
+            color: white;
+        }
+
+        .contenedor-menu .logo img{
+            width: 3em;
+            height: 3em;
+            margin-right: 2em;
+        }
+
+
+
+        /* arranca menu */
+        .contenedor-menu ul{
+            list-style: none;
+            padding: 1em;
+            margin-left: 2em;
+            margin-right: 2em;
+            text-align: center;
+        }
+        .contenedor-menu ul li{
+            margin: 1em;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+
+        .contenedor-menu a{
+            text-decoration:none;
+            color: white;
+        }
+        a:hover{
+            background-color: #10d5ff;
+            color: white;
+            border: solid #10d5ff 1px;
+        }
+        /* main */
+
+        h2{
+            margin-left: 1em;
+            margin-top: 2em;
+            color: white;
+            font-size: 20px;
+        }
+
+        h3{ 
+            margin-left: 1em;
+            margin-top: 5em;
+            color: white;
+            font-size: 18px;
+
+        }
+
+        /* primera seccion peliculas */
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2em;
+            margin-left: 5em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno .title-reseña{
+            color: white;
+            font-size: 20px;
+            margin-right: 3em;
+        }
+
+        .contenedor-uno p{
+            color:  #10d5ff;
+            margin-right: 3em;
+            margin-top: 2em;
+        }
+
+
+
+    /* primera seccion series */
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2em;
+        margin-left: 5em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+         display: flex;
+         flex-direction: column;
+         margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos .title-reseña-serie{
+        color: white;
+        font-size: 20px;
+        margin-right: 3em;
+    }
+
+    .contenedor-dos p{
+        color:  #10d5ff;
+        margin-right: 3em;
+        margin-top: 2em;
+    }
+
+
+    img{
+        width: 150px;
+    }
+
+    img:hover{
+        transform: scale(1.15);
+    }
+
+    /* Footer */
+    .contenedor-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10em;
+        box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+
+    .contenedor-footer .logo-footer{
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top:2em;
+    }
+
+    .contenedor-footer .logo-footer h1{
+        color: white;
+    }
+
+    .contenedor-footer .logo-footer img{
+        width: 3em;
+        height: 3em;
+        margin-right: 2em;
+    }
+
+    .contenedor-footer .lista-footer ul{
+        list-style: none;
+        text-align: center;
+        margin-right: 2em;
+    }
+
+    .contenedor-footer a{
+        color: white;
+    }
+
+
+    }
+
+
+
+
+
+
+    /* ############################################### */
+
+    @media only screen and (min-width: 500px) {
+        .contenedor-menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            transition-duration: 0.4s;
+        }
+        
+        .contenedor-menu .logo{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2em;
+        }
+
+        .contenedor-menu .logo h1{
+            color: white;
+        }
+
+        .contenedor-menu .logo img{
+            width: 3em;
+            height: 3em;
+            margin-right: 2em;
+        }
+
+
+
+        /* arranca menu */
+        .contenedor-menu ul{
+            list-style: none;
+            padding: 1em;
+            margin-left: 2em;
+            margin-right: 2em;
+            text-align: center;
+        }
+        .contenedor-menu ul li{
+            margin: 1em;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+
+        .contenedor-menu a{
+            text-decoration:none;
+            color: white;
+        }
+        a:hover{
+            background-color: #10d5ff;
+            color: white;
+            border: solid #10d5ff 1px;
+        }
+        /* main */
+
+        h2{
+            margin-left: 1em;
+            margin-top: 2em;
+            color: white;
+            font-size: 20px;
+        }
+
+        h3{ 
+            margin-left: 1em;
+            margin-top: 5em;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+
+        }
+
+        /* primera seccion peliculas */
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2em;
+            margin-left: 5em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno .title-reseña{
+            color: white;
+            font-size: 20px;
+            margin-right: 3em;
+            margin-left:6em;
+        }
+    
+        .contenedor-uno p{
+            color:  #10d5ff;
+            margin-right: 6em;
+            margin-left: 6em;
+            margin-top: 2em;
+        }
+    
+
+
+
+    /* primera seccion series */
+      .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2em;
+        margin-left: 5em;
+        }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+         display: flex;
+         flex-direction: column;
+         margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos .title-reseña-serie{
+        color: white;
+        font-size: 20px;
+        margin-right: 3em;
+        margin-left: 7.5em;
+    }
+
+    .contenedor-dos p{
+        color:  #10d5ff;
+        margin-right: 6em;
+        margin-left: 5em;
+        margin-top: 2em;
+    }
+
+    img{
+        width: 150px;
+        margin-left: 7em;
+        
+    }
+
+    img:hover{
+        transform: scale(1.15);
+    }
+    }
+
+
+
+
+
+
+    /* ####################################### */
+
+
+    /* Small devices (600px and up) */
+    @media only screen and (min-width: 600px) {
+        .contenedor-menu{
+            display: flex;
+            flex-direction: row;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            transition-duration: 0.4s;
+        }
+        
+        .contenedor-menu .logo{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-right: 2em;
+            margin-bottom: 2em;
+        }
+
+        .contenedor-menu .logo h1{
+            color: white;
+        }
+
+        .contenedor-menu .logo img{
+            width: 3em;
+            height: 3em;
+        }
+
+
+        /* arranca menu */
+        .menu ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 2em;
+            margin-left: 3em;
+            list-style: none;
+        }
+
+        .contendor-menu li{
+            margin: 2em;
+            text-align: center;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+        .contenedor-menu a{
+            text-decoration:none;
+        }
+        a:hover{
+            background-color: #16aed4;
+            color: white;
+        }
+
+        img:hover{
+            transform: scale(1.15);
+        }
+
+
+
+        /* primera seccion peliculas */
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2em;
+            margin-left: 1em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno {
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display:flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            display:flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno .title-reseña{
+            color: white;
+            font-size: 20px;
+            margin-right: 3em;
+            margin-left:6em;
+        }
+    
+        .contenedor-uno p{
+            color:  #10d5ff;
+            width: 14em;
+            margin-right: 2em;
+            margin-left: 6em;
+            margin-top: 2em;
+        }
+    
+
+
+
+    /* primera seccion series */
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos .title-reseña-serie{
+        color: white;
+        font-size: 20px;
+        margin-right: 3em;
+        margin-left: 7.5em;
+    }
+
+    .contenedor-dos p{
+        width: 13em;
+        color:  #10d5ff;
+        margin-right: 6em;
+        margin-left: 5em;
+        margin-top: 2em;
+    }
+
+
+    }
+
+    
+
+
+
+
+
+
+
+
+/* ######################################## */
+
+    
+    /* Large devices (992px and up) */
+    @media only screen and (min-width: 960px) {
+        .contenedor-menu{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+        .menu ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 2em;
+            margin-left: 3em;
+            list-style: none;
+        }
+
+        .contendor-menu li{
+            margin: 2em;
+            text-align: center;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+        .contenedor-menu a{
+            text-decoration:none;
+            font-size: 25px;
+        }
+
+        a:hover{
+            background-color: #16aed4;
+            color: white;
+        }
+
+        img:hover{
+            transform: scale(1.15);
+        }
+
+
+
+        /* primera seccion peliculas */
+        .contenedor-uno h3{
+            text-align: center;
+        }
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content:center;
+            flex-direction: column;
+            margin-top: 2em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno .title-reseña{
+            color: white;
+            font-size: 20px;
+            margin-right: 3em;
+            margin-left:6em;
+        }
+    
+        .contenedor-uno p{
+            color:  #10d5ff;
+            width: 15em;
+            margin-right: 2em;
+            margin-left: 7em;
+            margin-top: 2em;
+        }
+    
+
+
+
+    /* primera seccion series */
+    .contenedor-dos h3{
+        text-align: center;
+    }
+
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos .title-reseña-serie{
+        color: white;
+        font-size: 20px;
+        margin-right: 3em;
+        margin-left: 7.5em;
+    }
+
+    .contenedor-dos p{
+        color:  #10d5ff;
+        width: 15em;
+        margin-right: 2em;
+        margin-left: 7em;
+        margin-top: 2em;
+    }
+
+    }
+
+
+
+
+
+
+
+    /* #################################################### */
+
+    /* Extra large devices (1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .contenedor-menu{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+        .menu ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 2em;
+            margin-left: 3em;
+            list-style: none;
+        }
+
+        .contendor-menu li{
+            margin: 2em;
+            text-align: center;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+        .contenedor-menu a{
+            text-decoration:none;
+            font-size: 25px;
+        }
+
+        a:hover{
+            background-color: #16aed4;
+            color: white;
+        }
+
+        img:hover{
+            transform: scale(1.15);
+        }
+
+
+
+        /* primera seccion peliculas */
+        .contenedor-uno h3{
+            text-align: center;
+        }
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content:center;
+            flex-direction: row;
+            margin-top: 2em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno .title-reseña{
+            color: white;
+            font-size: 20px;
+            margin-right: 3em;
+            margin-left:6em;
+        }
+    
+        .contenedor-uno p{
+            color:  #10d5ff;
+            width: 15em;
+            margin-right: 2em;
+            margin-left: 7em;
+            margin-top: 2em;
+        }
+    
+
+
+
+    /* primera seccion series */
+    .contenedor-dos h3{
+        text-align: center;
+    }
+
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content:center;
+        flex-direction: row;
+        margin-top: 2em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos .title-reseña-serie{
+        color: white;
+        font-size: 20px;
+        margin-right: 3em;
+        margin-left: 7.5em;
+    }
+
+    .contenedor-dos p{
+        color:  #10d5ff;
+        width: 15em;
+        margin-right: 2em;
+        margin-left: 7em;
+        margin-top: 2em;
+    }
+
+    }
+
+
+
