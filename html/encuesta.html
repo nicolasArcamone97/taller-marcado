@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peli Club</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilo-encuesta.css">
+
+    <!-- icon -->
+    <link rel="icon" href="../img/pelicula.png">
+
+
+</head>
+<body>
+    <header>
+        <div class="contenedor-menu">         
+            <div class="logo">
+                <h1>Peli Club</h1>
+                <img src="../img/pelicula.png" alt="">
+            </div>
+            
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../html/reseñas.html">Reseñas</a></li>
+                    <li><a href="./encuesta.html">Calificanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="form">
+                <h3>Registrate</h3>
+                <form>
+                    <div class="contenedor-items">
+                        <div class="item">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text"  id="Nombre" placeholder="Nombre"  required>
+                        </div>
+                        <div class="item">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Correo">
+                        </div>
+
+                        <div class="item">
+                            <label for="Pelicula">Seleccionar Pelicula:</label>
+                            <select name="Pelicula">
+                                <option>Súper Mario Bros</option>
+                                <option>Evil Dead Rise</option>
+                                <option>Creed lll</option>
+                                <option>Scream 6</option>
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label for="rango">Puntuación</label>
+                            <input type="range">
+                        </div>
+                        <div class="item">
+                            <label for="Serie">Seleccionar Serie:</label>
+                            <select name="Serie">
+                                <option>The Dark</option>
+                                <option>F B I</option>
+                                <option>Los Simpsons</option>
+                                <option>The Ark</option>
+                            </select>
+                        </div>
+                        <div class="item">
+                            <label for="rango">Puntuación</label>
+                            <input type="range">
+                        </div>
+                        <div class="item">
+                            <label for="comentario">Deja un comentario:</label>
+                            <textarea name="comentario" rows="8" cols="25"></textarea>
+                        </div>
+                    </div>
+    
+                    <div class="boton">
+                        <button type="submit" class="btn">Calificar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+            <div class="contenedor-footer">
+                <div class="logo-footer">
+                    <h1>Peli Club</h1>
+                    <img src="../img/pelicula.png" alt="">
+                </div>
+                <div class="lista-footer">
+                    <ul>
+                      <li> <a href="../index.html">Inicio</a> </li>
+                      <li> <a href="./reseñas.html">Reseñas</a> </li>
+                      <li> <a href="./html/encuesta.html">Calificanos</a> </li>
+                      <li> <a href="copyright.txt">Copyright</a> </li>
+                    </ul>
+                </div>
+            </div>
+           
+        </footer>
+
+</body>
+</html>
