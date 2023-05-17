@@ -66,10 +66,12 @@ body{
             justify-content: center;
             flex-direction: column;
             margin-top: 2em;
-            margin-left: 3em;
+            margin-left: 5em;
         }
 
         .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: flex;
+            flex-direction: column;
             margin-top: 3em;
         }
 
@@ -81,7 +83,7 @@ body{
         .contenedor-uno p{
             color: white;
             font-size: 18px;
-            text-align: start;
+            margin-right: 3em;
         }
     }
 
@@ -93,11 +95,13 @@ body{
         justify-content: center;
         flex-direction: column;
         margin-top: 2em;
-        margin-left: 4em;
+        margin-left: 5em;
     }
 
     .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
-        margin-top: 3em;
+         display: flex;
+         flex-direction: column;
+         margin-top: 3em;
     }
 
     .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
@@ -108,7 +112,7 @@ body{
     .contenedor-dos p{
         color: white;
         font-size: 18px;
-        text-align: start;
+        margin-right: 3em;
     }
 
 
