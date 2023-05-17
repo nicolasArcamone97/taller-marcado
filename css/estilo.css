@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #121B24;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* inicio header */
+
+
+/* Extra small devices (600px and down) */
+    @media only screen and (max-width: 600px) {
+        .contenedor-menu{
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            transition-duration: 0.4s;
+        }
+        
+        .contenedor-menu ul{
+            list-style: none;
+            padding: 1em;
+            text-align: center;
+        }
+        .contenedor-menu ul li{
+            margin: 1em;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+
+        .contenedor-menu a{
+            text-decoration:none;
+            color: white;
+        }
+        a:hover{
+            background-color: #10d5ff;
+            color: white;
+            border: solid #10d5ff 1px;
+        }
+        /* main */
+
+        h2{
+            margin-left: 1em;
+            margin-top: 2em;
+            color: white;
+            font-size: 20px;
+        }
+
+        h3{ 
+            margin-left: 1em;
+            margin-top: 5em;
+            color: white;
+            font-size: 18px;
+
+        }
+
+        /* primera seccion peliculas */
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2em;
+            margin-left: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno p{
+            color: white;
+            font-size: 18px;
+            text-align: start;
+        }
+    }
+
+
+
+    /* primera seccion series */
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2em;
+        margin-left: 4em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+        margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos p{
+        color: white;
+        font-size: 18px;
+        text-align: start;
+    }
+
+
+    img{
+        width: 150px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Small devices (600px and up) */
+    @media only screen and (min-width: 600px) {
+        .contenedor-menu{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            background-color: blueviolet;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+        .menu ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 2em;
+            list-style: none;
+        }
+
+        .contendor-menu li{
+            text-align: center;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+        .contenedor-menu a{
+            text-decoration:none;
+        }
+        a:hover{
+            background-color: #16aed4;
+            color: white;
+        }
+    }
+
+
+
+
+    
+    /* Large devices (992px and up) */
+    @media only screen and (min-width: 960px) {
+        .contenedor-menu{
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+        }
+        
+        .contenedor-menu ul{
+
+            list-style: none;
+            padding: 2em;
+            text-align: center;
+        }
+
+        .contenedor-menu ul li{
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+
+        .contenedor-menu a{
+            text-decoration:none;
+            color: white;
+        }
+    }
+
+
+    /* Extra large devices (1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .contenedor-menu{
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            background-color: red;
+        }
+        
+        .contenedor-menu ul{
+
+            list-style: none;
+            padding: 2em;
+            text-align: center;
+        }
+
+        .contenedor-menu ul li{
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+
+        .contenedor-menu a{
+            text-decoration:none;
+            color: white;
+        }
+    }
+
