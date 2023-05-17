@@ -21,7 +21,6 @@ body{
             box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
             width: 100%;
             transition-duration: 0.4s;
-            background-color: yellow;
         }
         
         .contenedor-menu ul{
@@ -86,7 +85,7 @@ body{
             font-size: 18px;
             margin-right: 3em;
         }
-    }
+    
 
 
 
@@ -121,7 +120,7 @@ body{
         width: 150px;
     }
 
-
+    }
 
 
     @media only screen and (min-width: 352px) {
@@ -196,7 +195,7 @@ body{
             font-size: 18px;
             margin-right: 3em;
         }
-    }
+    
 
 
 
@@ -232,21 +231,7 @@ body{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 
@@ -270,7 +255,6 @@ body{
             justify-content:center;
             box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
             width: 100%;
-            background-color: blueviolet;
             transition-duration: 0.4s;
             cursor: pointer;
         }
@@ -280,10 +264,12 @@ body{
             flex-direction: row;
             justify-content: center;
             padding: 2em;
+            margin-left: 3em;
             list-style: none;
         }
 
         .contendor-menu li{
+            margin: 2em;
             text-align: center;
             transition-duration: 1s;
             cursor: pointer;
@@ -295,7 +281,82 @@ body{
             background-color: #16aed4;
             color: white;
         }
+
+        img:hover{
+            transform: scale(1.15);
+        }
+
+
+        /* primera seccion peliculas */
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-top: 2em;
+            margin-left: 5em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno p{
+            width: 13em;
+            color: white;
+            font-size: 16px;
+            margin-right: 3em;
+        }
+    
+
+
+
+    /* primera seccion series */
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 2em;
+        margin-left: 5em;
     }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos p{
+        width: 13em;
+        color: white;
+        font-size: 16px;
+        margin-right: 3em;
+    }
+
+
+    }
+
+
+
+
+
+
+
 
 
 
@@ -334,28 +395,131 @@ body{
     @media only screen and (min-width: 1200px) {
         .contenedor-menu{
             display: flex;
-            justify-content: center;
+            flex-direction: row;
+            justify-content:center;
             box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
             width: 100%;
-            background-color: red;
+            transition-duration: 0.4s;
+            cursor: pointer;
         }
         
-        .contenedor-menu ul{
-
-            list-style: none;
+        .menu ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             padding: 2em;
-            text-align: center;
-        }
-
-        .contenedor-menu ul li{
             margin-left: 3em;
-            margin-right: 3em;
+            list-style: none;
         }
 
-
+        .contendor-menu li{
+            margin: 2em;
+            text-align: center;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
         .contenedor-menu a{
             text-decoration:none;
+            font-size: 25px;
+        }
+
+        a:hover{
+            background-color: #16aed4;
             color: white;
         }
+
+        img:hover{
+            transform: scale(1.15);
+        }
+
+
+        /* primera seccion peliculas */
+        .contenedor-uno h3{
+            text-align: center;
+        }
+        .contenedor-uno .contenedor-peliculas {
+            display:flex;
+            justify-content:center;
+            flex-direction: row;
+            margin-top: 2em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-uno .item-uno{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        .contenedor-uno .contenedor-peliculas .contenedor-grupo-dos .item-dos{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+
+        .contenedor-uno .item-uno p{
+            width: 13em;
+            color: white;
+            font-size: 16px;
+            margin-right: 8em;
+        }
+    
+
+
+
+    /* primera seccion series */
+    .contenedor-dos h3{
+        text-align: center;
     }
+
+    .contenedor-dos .contenedor-series {
+        display:flex;
+        justify-content:center;
+        flex-direction: row;
+        margin-top: 2em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-uno .item-uno{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .contenedor-dos .contenedor-series .contenedor-grupo-dos .item-dos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+
+    .contenedor-dos .item-uno p{
+        width: 13em;
+        color: white;
+        font-size: 16px;
+        margin-right: 8em;
+    }
+
+    }
+
+
 
